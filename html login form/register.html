@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login in Page</title>
+        <style type="text/css">input[type="submit"]{cursor: pointer;}</style>
+    </head>
+    <body>
+        <div>
+        <center>
+            <h3>
+                Register Here
+            </h3>
+            <form action ="login.php" method="post">
+                <table>
+                    <tr>
+                        <td>
+                            Username:
+                        </td>
+                        <td>
+                            <input type="text" name="user" placeholder="Enter name Here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password:
+                        </td>
+                        <td>
+                            <input type="password" name="pass" placeholder="Enter password here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email:
+                        </td>
+                        <td>
+                            <input type="text" name="mail" placeholder="Enter email here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gender: 
+                        </td>
+                        <td>
+                            <input type="radio" name="gender">Male
+                            <input type="radio" name="gender">Female
+                            <input type="radio" name="gender">Otherss
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Phone:
+                        </td>
+                        <td>
+                            <select>
+                                <option selected>+63</option>
+                                <option>+254</option>
+                                <option>+255</option>
+                                <option>+256</option>
+                                <option>+257</option>
+                            </select>
+                            <input type="phone" name="mob_digits" placeholder="63**********" maxlength="11">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" name="submit" value="Submit">
+                        </td>
+                        <td>
+                            Already a User?<a href="index.html">login here</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+        </div>
+
+        <div>
+            <center>
+            <img id="robot" src="https://blob.sololearn.com/courses/robot-c.jpg"><br>
+            <button onclick="robot.src='https://blob.sololearn.com/courses/robot-l.jpg'">Left</button>
+            <button onclick="robot.src ='https://blob.sololearn.com/courses/robot-r.jpg'">Right</button>
+            </center>
+        </div>
+
+    </body>
+</html>

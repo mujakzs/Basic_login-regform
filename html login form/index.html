@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login in Page</title>
+<style type="text/css">input[type="login"]{cursor: pointer;}</style>
+    </head>
+    <body>
+        <div>
+        <center>
+            <h3>
+                Login Here
+            </h3>
+            <form action ="login.php" method="post">
+                <table>
+                    <tr>
+                        <td>
+                            Username:
+                        </td>
+                        <td>
+                            <input type="text" name="user" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password:
+                        </td>
+                        <td>
+                            <input type="password" name="pass" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="submit" name="submit" value="Login">
+                        </td>
+                        <td>
+                            Not yet a Member?<a href="register.html">Register</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+        </div>
+        <div>
+            <center>
+            <img id="robot" src="https://blob.sololearn.com/courses/robot-c.jpg"><br>
+            <button onclick="robot.src='https://blob.sololearn.com/courses/robot-l.jpg'">Left</button>
+            <button onclick="robot.src ='https://blob.sololearn.com/courses/robot-r.jpg'">Right</button>
+            </center>
+        </div>
+
+    </body>
+</html>
